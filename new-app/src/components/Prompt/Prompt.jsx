@@ -1,10 +1,18 @@
 import React from "react";
 
+import s from './PromptCard.module.css'
 
-const Prompt = () => {
-    return <div>
-        <p>Это 1 prompt</p>
+const PromptCard = () => {
+  return (
+    <div className={s.promptCard}>
+
+      <div className={s.content}>
+        <p>Создайте универсальный разговорник, чтобы легко общаться на иностранном языке.</p>
+      </div>
+
+      <button className={s.actionButton}>Редактировать</button>
     </div>
-}
+  );
+};
 
-export default Prompt;
+export default PromptCard;

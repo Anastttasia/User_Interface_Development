@@ -1,11 +1,13 @@
 
 .nav {
     grid-area: second;
-    background-color: #447EA3;
+    display: flex;
+    align-items: center;
+    
 }
 
 .item {
-    color: white;
+    color: rgb(2, 2, 2);
 }
 
 .activeLink  {
@@ -13,6 +15,19 @@
 }
 
 a {
-    color: white;
+    color: rgb(10, 10, 10);
     text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  width: 35px;
+  height: 35px;
 }

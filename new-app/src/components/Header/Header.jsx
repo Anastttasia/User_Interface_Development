@@ -1,21 +1,26 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import s from '../NavBar/Nav.module.css';
 
+import s from'./Header.module.css';
+import imgLogo from '../../icon/ai.png'
+
+import NavProfile from '../NavBar/NavProfile'
+import SearchForm from '../SearchForm/SearchForm'
 
 const Header = () => {
-    return <header >
-    <div className={s.item}>
+    return <header className={s.header}>
       <NavLink
-        to="/home"
+        to="/"
         className={({ isActive }) =>
           isActive ? s.activeLink : undefined
         }
       >
-        HOME
+        <img src={imgLogo} alt="Logo" className={s.logo}/>
       </NavLink>
-    </div>
-        <p>Это header</p>
+
+        <SearchForm/>
+
+        <NavProfile />
     </header>
 }
 

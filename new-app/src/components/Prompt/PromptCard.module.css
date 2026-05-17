@@ -1,0 +1,55 @@
+.promptCard {
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  border: 1px solid #0000006c;
+  margin: 1rem;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.iconContainer, .likesContainer {
+  display: flex;
+  align-items: center;
+}
+
+.likesContainer span {
+  margin-right: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.content p {
+ color: black;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.actionButton {
+  background: #6f2cea;
+  border: none;
+  border-radius: 15px;
+  padding: 12px 24px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+.actionButton:hover {
+  background: #5b29e4;
+}
