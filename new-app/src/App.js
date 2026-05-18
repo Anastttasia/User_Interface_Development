@@ -4,16 +4,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Nav from './components/NavBar/Nav';
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import Home from './pages/Home';
 
+import Home from './pages/Home';
 import Signup from './pages/Signup/Signup';
 import Login from './pages/Login/Login';
 import SearchPromptPage from './pages/SearchPage/SearchPage';
 
 
 import PromptsHub from './pages/PromptsHub';
-import PromptPage from './pages/PromptPage';
+import PromptPage from './pages/PromptPage/PromptPage';
 import Editor from './pages/Editor';
 import KnowledgeBase from './pages/KnowledgeBase';
 import Research from './pages/Research';
@@ -25,7 +24,6 @@ function App() {
     <BrowserRouter>
 
       <Header />
-      <Nav />
       <div>
         <Routes>
           <Route path='/profile' element={<Profile />} />

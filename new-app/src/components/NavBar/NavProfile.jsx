@@ -32,16 +32,6 @@ const NavProfile = (props) => {
       </NavLink>
     </div>
 
-    <div className={s.item}>
-      <NavLink
-        to="/signup"
-        className={({ isActive }) =>
-          isActive ? s.activeLink : undefined
-        }
-      >
-        Зарегистрироваться
-      </NavLink>
-    </div>
 
         <div className={s.item}>
     </div>

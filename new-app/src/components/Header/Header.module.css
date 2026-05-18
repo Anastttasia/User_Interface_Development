@@ -1,5 +1,5 @@
 .header {
-  background: rgb(185, 183, 183);
+  background: #FFBE1A;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -8,7 +8,7 @@
   flex-direction: row;
   justify-content: space-between;
   font-size: large;
-  padding: 2rem 3rem;
+  padding: 2rem 4rem;
   box-sizing: border-box;
 }
 
